@@ -1,5 +1,5 @@
 # action.yml
-name: 'Sync a Repo like subdir of another'
+name: 'Sync a Repo like subdir of another (upgrade)'
 description: 'When you push in Repo A, this repo is copied and sync like subfolder to Repo B'
 author: 'Tomas Delvechio <tomasdelvechio17+github@gmail.com'
 inputs:
