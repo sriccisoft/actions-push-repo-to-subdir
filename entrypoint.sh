@@ -10,7 +10,7 @@ TARGET_PATH=$GITHUB_WORKSPACE/target-repo
 
 git config --global user.email "tomasdelvechio-actions-syn-repos@example.org"
 git config --global user.name "$GITHUB_USERNAME"
-git config --global --add safe.directory "$GITHUB_WORKSPACE"
+git config --global --add safe.directory "$TARGET_PATH"
 
 cp -TR $SOURCE_PATH $TARGET_PATH/$TARGET_SUBDIR_NAME
 cd $TARGET_PATH
