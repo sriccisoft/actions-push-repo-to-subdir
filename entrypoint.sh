@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 GITHUB_USERNAME=$1
 TARGET_SUBDIR_NAME=$2
